@@ -14,6 +14,13 @@
 		1E7ABA45282BD70400AACCBF /* LCO_App_RemasteredTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7ABA44282BD70400AACCBF /* LCO_App_RemasteredTests.swift */; };
 		1E7ABA4F282BD70400AACCBF /* LCO_App_RemasteredUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7ABA4E282BD70400AACCBF /* LCO_App_RemasteredUITests.swift */; };
 		1E7ABA51282BD70400AACCBF /* LCO_App_RemasteredUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7ABA50282BD70400AACCBF /* LCO_App_RemasteredUITestsLaunchTests.swift */; };
+		1E7ABA5E282BDAF300AACCBF /* card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7ABA5D282BDAF300AACCBF /* card.swift */; };
+		1E7ABA60282BE4DC00AACCBF /* course-model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7ABA5F282BE4DC00AACCBF /* course-model.swift */; };
+		1E7ABA62282BE59F00AACCBF /* course-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7ABA61282BE59F00AACCBF /* course-list.swift */; };
+		1E7ABA64282BEC7700AACCBF /* bundle-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7ABA63282BEC7700AACCBF /* bundle-list.swift */; };
+		1E7ABA66282BEE8F00AACCBF /* test-model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7ABA65282BEE8F00AACCBF /* test-model.swift */; };
+		1E7ABA68282BF05F00AACCBF /* test-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7ABA67282BF05F00AACCBF /* test-list.swift */; };
+		1E7ABA6A282BF17200AACCBF /* test-card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7ABA69282BF17200AACCBF /* test-card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		1E7ABA4A282BD70400AACCBF /* LCO App RemasteredUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LCO App RemasteredUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E7ABA4E282BD70400AACCBF /* LCO_App_RemasteredUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCO_App_RemasteredUITests.swift; sourceTree = "<group>"; };
 		1E7ABA50282BD70400AACCBF /* LCO_App_RemasteredUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCO_App_RemasteredUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E7ABA5D282BDAF300AACCBF /* card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = card.swift; sourceTree = "<group>"; };
+		1E7ABA5F282BE4DC00AACCBF /* course-model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "course-model.swift"; sourceTree = "<group>"; };
+		1E7ABA61282BE59F00AACCBF /* course-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "course-list.swift"; sourceTree = "<group>"; };
+		1E7ABA63282BEC7700AACCBF /* bundle-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "bundle-list.swift"; sourceTree = "<group>"; };
+		1E7ABA65282BEE8F00AACCBF /* test-model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "test-model.swift"; sourceTree = "<group>"; };
+		1E7ABA67282BF05F00AACCBF /* test-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "test-list.swift"; sourceTree = "<group>"; };
+		1E7ABA69282BF17200AACCBF /* test-card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "test-card.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +112,13 @@
 				1E7ABA35282BD70100AACCBF /* ContentView.swift */,
 				1E7ABA37282BD70400AACCBF /* Assets.xcassets */,
 				1E7ABA39282BD70400AACCBF /* Preview Content */,
+				1E7ABA5D282BDAF300AACCBF /* card.swift */,
+				1E7ABA5F282BE4DC00AACCBF /* course-model.swift */,
+				1E7ABA61282BE59F00AACCBF /* course-list.swift */,
+				1E7ABA63282BEC7700AACCBF /* bundle-list.swift */,
+				1E7ABA65282BEE8F00AACCBF /* test-model.swift */,
+				1E7ABA67282BF05F00AACCBF /* test-list.swift */,
+				1E7ABA69282BF17200AACCBF /* test-card.swift */,
 			);
 			path = "LCO App Remastered";
 			sourceTree = "<group>";
@@ -257,8 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E7ABA60282BE4DC00AACCBF /* course-model.swift in Sources */,
+				1E7ABA5E282BDAF300AACCBF /* card.swift in Sources */,
 				1E7ABA36282BD70100AACCBF /* ContentView.swift in Sources */,
+				1E7ABA68282BF05F00AACCBF /* test-list.swift in Sources */,
+				1E7ABA64282BEC7700AACCBF /* bundle-list.swift in Sources */,
 				1E7ABA34282BD70100AACCBF /* LCO_App_RemasteredApp.swift in Sources */,
+				1E7ABA62282BE59F00AACCBF /* course-list.swift in Sources */,
+				1E7ABA66282BEE8F00AACCBF /* test-model.swift in Sources */,
+				1E7ABA6A282BF17200AACCBF /* test-card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
